@@ -8,50 +8,63 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
+   
 
     <!-- fontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
     <header>
-        <nav class=" container navbar navbar-expand-sm my_nav">
-            <div class="container-fluid d-flex justify-content-between text-white">
-              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end text-white" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
-                  <a class="nav-link" href="#">ABOUT</a>
-                  <a class="nav-link" href="#">CONTACT</a>
+          <nav class=" container navbar navbar-expand-md my_nav">
+            <div class="row justify-content-between text-white w-100 align-items-center">
+              <div class="col-auto">
+                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              </div>
+              <div class="col-auto">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end text-white" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#">PORTFOLIO</a>
+                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </div>
                 </div>
               </div>
             </div>
           </nav>
 
+
+
           <div class="my_bg-set pt-5">
             <div class="row justify-content-center">
-                <div class="col-2 flex-column mb-5">
+                <div class="col-2 mb-5 ">
                       <img class="img-fluid" src="img/avatar.svg" alt="">
                 </div>
             </div>
             <div class="row justify-content-center mb-4">
-              <div class="col-6 flex-column text-center text-white">
+              <div class="col-6 text-center text-white">
                     <h1>START BOOTSTRAP</h1>
               </div>
             </div>
             <div class="row justify-content-center pb-5">
-              <div class="col-6 offset-3 flex-column">
-                    <div class="test-rec"></div>
+              <div class="col-6">
+                    <div class="bar d-flex align-items-center gap-3 justify-content-center">
+                      <div class="line"></div>
+                      <div class="star text-white fs-4"><i class="fa-solid fa-star"></i></div>
+                      <div class="line"></div>
+                    </div>
               </div>
             </div>
             <div class="row justify-content-center pb-5 text-white">
-              <div class="col-2 text-center">GRAPHIC ARTIST</div>
-              <div class="col-2 text-center">WEB DESIGNER</div>
-              <div class="col-2 text-center">ILLUSTRATOR</div>
+              <div class="col-lg-2 col-md-3 col-sm-3 w-30 text-center">GRAPHIC ARTIST</div>
+              <div class="col-lg-2 col-md-3 col-sm-3 w-30 text-center">WEB DESIGNER</div>
+              <div class="col-lg-2 col-md-3 col-sm-3 w-30 text-center">ILLUSTRATOR</div>
             </div>
           </div>
     </header>
@@ -62,63 +75,76 @@
         </div>
       </div>
       <div class="row justify-content-center pb-5">
-        <div class="col-6 offset-3 flex-column">
-              <div class="test-rec"></div>
+        <div class="col-6">
+          <div class="bar d-flex align-items-center gap-3 justify-content-center">
+            <div class="line bg-black"></div>
+            <div class="star text-black fs-4"><i class="fa-solid fa-star"></i></div>
+            <div class="line bg-black"></div>
+          </div>
         </div>
       </div>
       <div class="container text-center">
-        <div class="row row-cols-3 mb-5">
-          <div class="col-4 col-md-6">
+        <div class="row mb-5">
+          <div class="col-lg-4 col-md-6 mb-md-3 col-sm-12 mb-sm-3">
             <img class="img-thumbnail rounded-4" src="img/cabin.png" alt="">
           </div>
-          <div class="col-4 col-md-6">
+          <div class="col-lg-4 col-md-6 mb-md-3 col-sm-12 mb-sm-3">
             <img class="img-thumbnail rounded-4" src="img/cake.png" alt="">
           </div>
-          <div class="col-4 col-md-6">
+          <div class="col-lg-4 col-md-6 mb-md-3 col-sm-12 mb-sm-3">
             <img class="img-thumbnail rounded-4" src="img/circus.png" alt="">
           </div>
-          <div class="col-4 col-md-6">
+          <div class="col-lg-4 col-md-6 mb-md-3 col-sm-12 mb-sm-3">
             <img class="img-thumbnail rounded-4" src="img/game.png" alt="">
           </div>
-          <div class="col-4 col-md-6">
+          <div class="col-lg-4 col-md-6 mb-md-3 col-sm-12 mb-sm-3">
             <img class="img-thumbnail rounded-4" src="img/safe.png" alt="">
           </div>
-          <div class="col-4 col-md-6">
+          <div class="col-lg-4 col-md-6 mb-md-3 col-sm-12 mb-sm-3">
             <img class="img-thumbnail rounded-4" src="img/submarine.png" alt="">
           </div>
         </div>
       </div>
       
-      <div class="row my_bg-set">
-        <div class="row justify-content-center pt-5 pb-2">
-          <div class="col-6 flex-column text-center text-white">
-            <h2>ABOUT</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center pb-5">
-          <div class="col-6 offset-3 flex-column">
-                <div class="test-rec"></div>
-          </div>
-        </div>
-        <div class="row row-cols-2 justify-content-center pb-5">
-          <div class="col-6">
-            <div class="row text-white pt-4">
-              <div class="col">
-                <p>
-                  Freelancer is a free boatstrap theme created by Start Bootstrap. The download includes the complete source including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
-                </p>
-              </div>
-              <div class="col">
-                <p>
-                  Whatever you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
-                </p>
+
+      <div class="container-fluid my_bg-set">
+
+          <div class="row">
+            <div class="row justify-content-center pt-5 pb-2">
+              <div class="col-6 text-center text-white">
+                <h2>ABOUT</h2>
               </div>
             </div>
+            <div class="row justify-content-center pb-5">
+              <div class="col-6">
+                <div class="bar d-flex align-items-center gap-3 justify-content-center">
+                  <div class="line"></div>
+                  <div class="star text-white fs-4"><i class="fa-solid fa-star"></i></div>
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-2 justify-content-center pb-5">
+              <div class="col-lg-6 col-sm-12">
+                <div class="row flex-md-colums flex-xs-column text-white pt-4">
+                  <div class="col">
+                    <p>
+                      Freelancer is a free boatstrap theme created by Start Bootstrap. The download includes the complete source including HTML, CSS and JavaScript as well as optional LESS stylesheets for easy customization.
+                    </p>
+                  </div>
+                  <div class="col">
+                    <p>
+                      Whatever you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5 text-center">
+                <button type="button" class="btn btn-outline-light">Download</button>
+            </div>
           </div>
-        </div>
-        <div class="col-1 mx-auto mb-5">
-            <button type="button" class="btn btn-outline-light">Download</button>
-        </div>
+        
       </div>
 
 
@@ -127,36 +153,40 @@
     </main>
 
     <footer class="my_footer-top">
-      <div class="row container text-center d-flex justify-content-center mx-auto pt-5 pb-4 text-white">
-        <div class="col">
-          <div class="row flex-column">
-            <div class="col"><h4>LOCATION</h4></div>
-            <div class="col">2215 John Daniel Drive Clark, MO</div>
-            <div class="col">54243</div>
+      <div class="container">
+
+        <div class="row containerflex-sm-column d-flex justify-content-center mx-auto pt-5 pb-4 text-white text-center">
+          <div class="col">
+            <div class="row flex-column">
+              <div class="col"><h4>LOCATION</h4></div>
+              <div class="col">2215 John Daniel Drive Clark, MO</div>
+              <div class="col">54243</div>
+            </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="row flex-column">
-            <div class="col"><h4 class="ms-2">AROUND THE WEB</h4></div>
-            <div class="row justify-content-center ms-1">
-              <div class="col-2"><i class="fa-brands fa-facebook-f"></i></div>
-              <div class="col-2"><i class="fa-brands fa-google-plus-g"></i></div>
-              <div class="col-2"><i class="fa-brands fa-x-twitter"></i></div>
-              <div class="col-2"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div class="col">
+            <div class="row flex-column">
+              <div class="col"><h4 class="ms-2">AROUND THE WEB</h4></div>
+              <div class="row justify-content-center ms-1">
+                <div class="col-2"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="col-2"><i class="fa-brands fa-google-plus-g"></i></div>
+                <div class="col-2"><i class="fa-brands fa-x-twitter"></i></div>
+                <div class="col-2"><i class="fa-brands fa-linkedin-in"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row flex-column">
+              <div class="col"><h4>ABOUT FREELANCER</h4></div>
+              <div class="col">Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="row flex-column">
-            <div class="col"><h4>ABOUT FREELANCER</h4></div>
-            <div class="col">Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>.</div>
-          </div>
-        </div>
+        
       </div>
-      <div class="row my_footer-bot pt-5 pb-3">
+      <div class="row pt-5">
 
-        <div class="row container mx-auto d-flex justify-content-center text-white text-center">
-          <div class="col-2 mb-3">Copyright <i class="fa-regular fa-copyright"></i>Your Website 2024</div>
+        <div class="row my_footer-bot d-flex justify-content-center text-white text-center">
+          <div class="col-3 mb-4 mt-4 ">Copyright <i class="fa-regular fa-copyright"></i>Your Website 2024</div>
         </div>
       </div>
     </footer>

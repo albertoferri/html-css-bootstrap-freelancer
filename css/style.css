@@ -13,6 +13,8 @@ header{
 }
 
 
+
+
 .fa-brands{
     border: 1px solid white;
     border-radius: 50%;
@@ -34,17 +36,19 @@ header{
 }
 
 
-/* test */
-.test-rec{
-    width: 300px;
-    height: 35px;
-    background-color: red;
+.line{
+    width: 200px;
+    height: 5px;
+    background-color: white;
+    border-radius: 2.5px;
 }
-
 
 
 footer .row span{
     color: #1abc9c;
 }
 
+.row{
+    margin-right: 0;
+}
 
