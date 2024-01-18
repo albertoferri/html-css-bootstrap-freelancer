@@ -14,7 +14,13 @@ header, .my_footer-bot{
 footer .row span{
     color: #1abc9c;
 }
+
+
+.btn-primary:hover{
+    background-color: #18a387;
+}
 /* fine stilizzazione custom dei colori */
+
 
 
 
@@ -44,7 +50,7 @@ footer .row span{
 
 
 
-/* rimozione freccie nella sezione phone number nel form */
+/* rimozione freccie nella sezione phone number nel formn */
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
